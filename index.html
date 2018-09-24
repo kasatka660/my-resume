@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<link  rel='stylesheet' href='style.css' type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li> 
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact-footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id ="home">
+      <div class="inner">
+        <img src="./images/my-pic.jpg">
+        <h1>Elena Khalyavskaya</h1>
+        <h4>junior front-end developer</h4>
+        <ul>
+          <li><a href = "mailto:lenach241@gmail.com"><i class="far fa-envelope"></i></a></li>
+          <li><a href = "https://github.com/kasatka660" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href = "https://www.facebook.com/lena.khalyavskaya" target="_blank"><i class="fab fa-facebook-f" ></i></a></li>
+          <li><a href = "https://vk.com/lenakhalyavskaya" target="_blank"><i class="fab fa-vk"></i></a></li>
+        </ul>
+        <div class="cv-download">
+          <a href="./cv.pdf" target="_blank">Download CV</a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About me</h2>
+        <p>
+         After 1 year of self-education via online courses and videos<br/> can’t wait  to start as a junior front-end developer with a strong<br/> desire to practice and learn a lot more.
+        </p>
+    </section>
+    <section id="basic-info">
+      <h2>Basic information</h2>
+        <p>
+          Address: Minsk, Belarus <br/>
+          Date of Birth: 24 November, 1994 <br/>
+          Languages: Russian, English, German
+        </p>
+    </section>
+    <section id="skills">
+      <h2>Technical skills</h2>
+        <div class="skillbar">
+          <label for="skill-1">HTML</label>
+          <div class="skill" id="skill-1">
+            <div class="percantage skill-1"></div>
+          </div>
+          <label for="skill-2">CSS / SASS</label>
+          <div class="skill" id="skill-2">
+            <div class="percantage skill-2"></div>
+          </div>
+          <label for="skill-3">Bootstrap</label>
+          <div class="skill" id="skill-3">
+            <div class="percantage skill-3"></div>
+          </div>
+          <label for="skill-4">Git</label>
+          <div class="skill" id="skill-4">
+            <div class="percantage skill-4"></div>
+          </div>
+          <label for="skill-5">Java Script</label>
+          <div class="skill" id="skill-5">
+            <div class="percantage skill-5"></div>
+          </div>
+        </div>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <div class="university">
+        <div class="bachelor-logo">
+         <img src="./images/bachelor.jpg"/>
+        </div>
+        <div class="university-info">
+        Belarussian State University <br/>
+        BA in Economic Theory <br/>
+        Years: 2011 - 2016
+        </div>
+        <div class="clearfix"></div>
+      </div>    
+      <h3>Courses completed</h3>
+      <div>
+        <div class="course">  
+          <h4>Code Academy</h4>
+          "Introduction to HTML"<br/>
+          "Introduction to CSS"<br/>
+          "Introduction to JavaScript"<br/>  
+          "Learn SQL"<br/>
+        </div>
+        <div class="course">  
+          <h4>Edx.org</h4>
+          "Introduction to Bootstrap"<br/>
+          "Introduction to JQuery"<br/>
+        </div>
+        <div class="course">
+          <h4>HTML Academy</h4>
+          "Basics of HTML"<br/>
+          "Basics of CSS"<br/>
+        </div>
+      </div>     
+    </section>
+    <div class="clearfix"></div>
+    <footer id="contact-footer">
+      <h2>Contact me</h2>
+      <form action="/action_page.php">
+        <div class="floated-left">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Your name"><br>
+          <label for="email">E-mail:</label><br>
+          <input type="text" name="email" id="email" placeholder="Your email"><br>
+          <label for="phone">Phone:</label><br>
+          <input type="text" name="phone" id="phone" placeholder="Your phone"><br>
+        </div>
+        <div class="floated-left">
+          <label for="message">Message:</label><br/>
+          <textarea name="message" id="message" placeholder="Your message"></textarea><br/>
+          <input type="submit" class="button" value="Send">
+        </div>
+        <div class="clearfix"></div>
+      </form>
+    </footer>
+  </main>
+</body>
+</html>
+
